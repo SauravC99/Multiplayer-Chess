@@ -1,6 +1,5 @@
 
-Multiplayer Chess/.vs/Multiplayer Chess/v16/.suo
-Multiplayer Chess/.vs/Multiplayer Chess/v16/.suo
+*.suo
 *.db
 *.db-shm
 *.db-wal
