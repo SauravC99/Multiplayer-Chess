@@ -16,5 +16,5 @@ public:
 
 	Color getColor();
 
-	virtual vector <pair<char, char>> getMoves(pair<char, char>) = 0;
+	virtual vector<pair<char, char>> getMoves(pair<char, char>) = 0;
 };

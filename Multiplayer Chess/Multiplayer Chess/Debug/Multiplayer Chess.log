@@ -1,14 +1,7 @@
-﻿  Bishop.cpp
-  IPiece.cpp
-  King.cpp
+﻿  King.cpp
   Knight.cpp
-  main.cpp
   Pawn.cpp
   Queen.cpp
   Rook.cpp
   Generating Code...
-C:\Users\Tanner\Documents\Github\Multiplayer-Chess\Multiplayer Chess\Multiplayer Chess\Rook.cpp(5): error C4716: 'getMoves': must return a value
-C:\Users\Tanner\Documents\Github\Multiplayer-Chess\Multiplayer Chess\Multiplayer Chess\Queen.cpp(5): error C4716: 'getMoves': must return a value
-C:\Users\Tanner\Documents\Github\Multiplayer-Chess\Multiplayer Chess\Multiplayer Chess\Pawn.cpp(5): error C4716: 'getMoves': must return a value
-C:\Users\Tanner\Documents\Github\Multiplayer-Chess\Multiplayer Chess\Multiplayer Chess\Knight.cpp(5): error C4716: 'getMoves': must return a value
-C:\Users\Tanner\Documents\Github\Multiplayer-Chess\Multiplayer Chess\Multiplayer Chess\King.cpp(5): error C4716: 'getMoves': must return a value
+  Multiplayer Chess.vcxproj -> C:\Users\Tanner\Documents\Github\Multiplayer-Chess\Multiplayer Chess\Debug\Multiplayer Chess.exe
