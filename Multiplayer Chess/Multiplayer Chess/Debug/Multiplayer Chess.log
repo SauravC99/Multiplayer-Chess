@@ -1,7 +1,5 @@
-﻿  King.cpp
-  Knight.cpp
+﻿  main.cpp
   Pawn.cpp
-  Queen.cpp
   Rook.cpp
   Generating Code...
   Multiplayer Chess.vcxproj -> C:\Users\Tanner\Documents\Github\Multiplayer-Chess\Multiplayer Chess\Debug\Multiplayer Chess.exe

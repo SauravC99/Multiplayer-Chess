@@ -13,54 +13,57 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Pieces">
+      <UniqueIdentifier>{c1f41926-4e35-41b7-94a9-1ff657df533c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Pawn.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Pieces\Bishop.cpp">
+      <Filter>Pieces</Filter>
     </ClCompile>
-    <ClCompile Include="IPiece.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Pieces\IPiece.cpp">
+      <Filter>Pieces</Filter>
     </ClCompile>
-    <ClCompile Include="Rook.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Pieces\King.cpp">
+      <Filter>Pieces</Filter>
     </ClCompile>
-    <ClCompile Include="Knight.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Pieces\Knight.cpp">
+      <Filter>Pieces</Filter>
     </ClCompile>
-    <ClCompile Include="Bishop.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Pieces\Pawn.cpp">
+      <Filter>Pieces</Filter>
     </ClCompile>
-    <ClCompile Include="Queen.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Pieces\Queen.cpp">
+      <Filter>Pieces</Filter>
     </ClCompile>
-    <ClCompile Include="King.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="Pieces\Rook.cpp">
+      <Filter>Pieces</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Pawn.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Pieces\Bishop.h">
+      <Filter>Pieces</Filter>
     </ClInclude>
-    <ClInclude Include="IPiece.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Pieces\IPiece.h">
+      <Filter>Pieces</Filter>
     </ClInclude>
-    <ClInclude Include="Rook.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Pieces\King.h">
+      <Filter>Pieces</Filter>
     </ClInclude>
-    <ClInclude Include="Knight.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Pieces\Knight.h">
+      <Filter>Pieces</Filter>
     </ClInclude>
-    <ClInclude Include="Bishop.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Pieces\Pawn.h">
+      <Filter>Pieces</Filter>
     </ClInclude>
-    <ClInclude Include="Queen.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Pieces\Queen.h">
+      <Filter>Pieces</Filter>
     </ClInclude>
-    <ClInclude Include="King.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Pieces\Rook.h">
+      <Filter>Pieces</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
