@@ -3,10 +3,13 @@
 #include "Client.h"
 #include "Server.h"
 #include <iostream>
+#include "ChessRenderer.h"
 
 int main()
 {
     sf::RenderWindow window(sf::VideoMode(1000, 750), "SFML works!");
+
+    ChessRenderer cr;
 
     while (window.isOpen())
     {
@@ -18,6 +21,7 @@ int main()
         }
 
         window.clear();
+        cr.draw(window);
         window.display();
     }
 
