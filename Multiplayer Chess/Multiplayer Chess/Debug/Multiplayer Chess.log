@@ -1,11 +1,4 @@
-﻿  Bishop.cpp
-  IPiece.cpp
-  King.cpp
-  Knight.cpp
-  Pawn.cpp
-  Queen.cpp
-  Rook.cpp
+﻿  Client.cpp
   main.cpp
   Generating Code...
-  LINK : C:\Users\Tanner\Documents\Github\Multiplayer-Chess\Multiplayer Chess\Debug\Multiplayer Chess.exe not found or not built by the last incremental link; performing full link
   Multiplayer Chess.vcxproj -> C:\Users\Tanner\Documents\Github\Multiplayer-Chess\Multiplayer Chess\Debug\Multiplayer Chess.exe
