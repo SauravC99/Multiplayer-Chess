@@ -10,7 +10,7 @@ Server::Server(unsigned short port) {
 }
 
 void Server::send(const char* data, std::size_t bytes) {
-	if (client.send(data, 100) != sf::Socket::Done) {
+	if (client.send(data, bytes) != sf::Socket::Done) {
 		throw "Data could not be sent";
 	}
 }

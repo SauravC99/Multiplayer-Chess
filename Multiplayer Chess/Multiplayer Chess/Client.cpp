@@ -7,7 +7,7 @@ Client::Client(const sf::IpAddress& ipAddress, unsigned short port, sf::Time tim
 }
 
 void Client::send(const char* data, std::size_t bytes) {
-	if (socket.send(data, 100) != sf::Socket::Done) {
+	if (socket.send(data, bytes) != sf::Socket::Done) {
 		throw "Data could not be sent";
 	}
 }

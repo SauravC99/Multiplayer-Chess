@@ -7,19 +7,6 @@
 int main()
 {
     sf::RenderWindow window(sf::VideoMode(1000, 750), "SFML works!");
-    
-    char i;
-    std::cin >> i;
-    if (i == 'c') {
-        Client c;
-        std::cout << c.receive() << std::endl;
-        c.send("bye", 3);
-    }
-    else if (i == 's') {
-        Server s;
-        s.send("hello", 5);
-        std::cout << s.receive() << std::endl;
-    }
 
     while (window.isOpen())
     {
