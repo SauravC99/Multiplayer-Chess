@@ -1,5 +1,13 @@
 #include "Rook.h"
 
-vector <pair<char, char>> getMoves(pair<char, char>) {
+Rook::Rook() {
+	type = Piece::Rook;
+}
 
+Piece Rook::getType() {
+	return type;
+}
+
+vector <pair<char, char>> Rook::getMoves(pair<char, char>) {
+	return vector<pair<char, char>>();
 }

@@ -11,3 +11,7 @@ IPiece::IPiece(Color a) {
 Color IPiece::getColor() {
 	return color;
 }
+
+Piece IPiece::getType() {
+	return type;
+}

@@ -1,5 +1,13 @@
 #include "Knight.h"
 
-vector <pair<char, char>> getMoves(pair<char, char>) {
+Knight::Knight() {
+	type = Piece::Knight;
+}
 
+Piece Knight::getType() {
+	return type;
+}
+
+vector <pair<char, char>> Knight::getMoves(pair<char, char>) {
+	return vector<pair<char, char>>();
 }
