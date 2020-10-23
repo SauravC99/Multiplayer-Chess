@@ -19,12 +19,12 @@ Chess::~Chess() {
 void Chess::render() {
     window->clear();
     window->draw(boardSprite);
-    for (char rank = 8; rank >= 1; rank--) {
+    /*for (char rank = 8; rank >= 1; rank--) {
         for (char file = 'A'; file <= 'H'; file++) {
             IPiece* temp = board.get(std::make_pair(rank, file));
             if(temp->getName() == "King")
         }
-    }
+    }*/
     window->display();
 }
 

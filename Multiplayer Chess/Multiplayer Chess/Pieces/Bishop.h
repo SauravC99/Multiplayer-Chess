@@ -4,12 +4,12 @@
 
 using namespace std;
 
-class Bishop:public IPiece {
+class Bishop : public IPiece {
 private:
 	Piece type = Piece::Bishop;
 
 public:
-	Bishop();
+	Bishop(Color c = Color::None);
 
 	Piece getType();
 

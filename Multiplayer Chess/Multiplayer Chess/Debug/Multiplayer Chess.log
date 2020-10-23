@@ -1,4 +1,11 @@
 ﻿  Chess.cpp
+  Bishop.cpp
+  IPiece.cpp
+  King.cpp
+  Knight.cpp
+  Pawn.cpp
+  Queen.cpp
+  Rook.cpp
   main.cpp
   Generating Code...
   Multiplayer Chess.vcxproj -> C:\Users\Tanner\Documents\Github\Multiplayer-Chess\Multiplayer Chess\Debug\Multiplayer Chess.exe

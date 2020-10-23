@@ -9,7 +9,7 @@ private:
 	Piece type = Piece::King;
 
 public:
-	King();
+	King(Color c = Color::None);
 
 	Piece getType();
 

@@ -9,8 +9,10 @@ enum class Piece {Pawn, Knight, Rook, Bishop, Queen, King};
 
 class IPiece {
 private:
-	Color color;
 	Piece type;
+
+public:
+	Color color;
 
 public:
 	IPiece();
@@ -20,4 +22,6 @@ public:
 	Piece getType();
 
 	virtual vector<pair<char, char>> getMoves(pair<char, char>) = 0;
+	
+	bool onBoard(char rank, char file);
 };

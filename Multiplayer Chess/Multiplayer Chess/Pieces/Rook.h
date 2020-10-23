@@ -9,7 +9,7 @@ private:
 	Piece type = Piece::Rook;
 
 public:
-	Rook();
+	Rook(Color c = Color::None);
 
 	Piece getType();
 

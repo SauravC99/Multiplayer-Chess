@@ -9,7 +9,7 @@ private:
 	Piece type = Piece::Knight;
 
 public:
-	Knight();
+	Knight(Color c = Color::None);
 
 	Piece getType();
 
