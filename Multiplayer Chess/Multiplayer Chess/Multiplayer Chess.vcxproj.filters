@@ -18,48 +18,48 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Pawn.cpp">
+    <ClCompile Include="Pieces\Rook.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="IPiece.cpp">
+    <ClCompile Include="Pieces\Queen.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Rook.cpp">
+    <ClCompile Include="Pieces\Pawn.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Knight.cpp">
+    <ClCompile Include="Pieces\Knight.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Bishop.cpp">
+    <ClCompile Include="Pieces\King.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Queen.cpp">
+    <ClCompile Include="Pieces\Bishop.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="King.cpp">
+    <ClCompile Include="Pieces\IPiece.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Pawn.h">
+    <ClInclude Include="Pieces\Rook.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="IPiece.h">
+    <ClInclude Include="Pieces\Queen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Rook.h">
+    <ClInclude Include="Pieces\Pawn.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Knight.h">
+    <ClInclude Include="Pieces\Knight.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Bishop.h">
+    <ClInclude Include="Pieces\King.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Queen.h">
+    <ClInclude Include="Pieces\IPiece.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="King.h">
+    <ClInclude Include="Pieces\Bishop.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
