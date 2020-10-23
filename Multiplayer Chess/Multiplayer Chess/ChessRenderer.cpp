@@ -4,6 +4,7 @@ ChessRenderer::ChessRenderer() {
 	if (!spritesheet.loadFromFile("chess pieces.png")) {
 		throw "Could not load \"chess pieces.png\"";
 	}
+	spritesheet.setSmooth(true);
 
 	sf::Vector2u textureSize = spritesheet.getSize();
 	textureSize.x /= 6;
@@ -15,19 +16,20 @@ ChessRenderer::ChessRenderer() {
 				               textureSize.x      , textureSize.y      );
 			sprites[row * 6 + col].setTexture(spritesheet);
 			sprites[row * 6 + col].setTextureRect(bounds);
+			sprites[row * 6 + col].setScale(0.5f, 0.5f);
 		}
 	}
 }
 
-void ChessRenderer::draw(sf::RenderWindow& window, Piece piece, bool isBlack, sf::Vector2f position) {
+void ChessRenderer::draw(sf::RenderWindow& window, cr::Piece piece, bool isBlack, sf::Vector2f position) {
 	int i;
 	switch (piece) {
-	case Piece::King  :	  i = 6 * isBlack ;		 break;
-	case Piece::Queen :	  i = 6 * isBlack + 1;	 break;
-	case Piece::Bishop:	  i = 6 * isBlack + 2;	 break;
-	case Piece::Knight:	  i = 6 * isBlack + 3;	 break;
-	case Piece::Rook  :	  i = 6 * isBlack + 4;	 break;
-	case Piece::Pawn  :	  i = 6 * isBlack + 5;	 break;
+	case cr::Piece::King   :	  i = 6 * isBlack ;		 break;
+	case cr::Piece::Queen  :	  i = 6 * isBlack + 1;	 break;
+	case cr::Piece::Bishop :	  i = 6 * isBlack + 2;	 break;
+	case cr::Piece::Knight :	  i = 6 * isBlack + 3;	 break;
+	case cr::Piece::Rook   :	  i = 6 * isBlack + 4;	 break;
+	case cr::Piece::Pawn   :	  i = 6 * isBlack + 5;	 break;
 	default : return;
 	}
 	sprites[i].setPosition(position);

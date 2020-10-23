@@ -19,8 +19,8 @@ public:
 	IPiece(Color a);
 
 	Color getColor();
-	Piece getType();
 
+	virtual Piece getType() = 0;
 	virtual vector<pair<char, char>> getMoves(pair<char, char>) = 0;
 	
 	bool onBoard(char rank, char file);

@@ -151,6 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Board.cpp" />
     <ClCompile Include="Chess.cpp" />
     <ClCompile Include="ChessRenderer.cpp" />
     <ClCompile Include="Networking\Client.cpp" />
@@ -165,6 +166,7 @@
     <ClCompile Include="Networking\Server.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Board.h" />
     <ClInclude Include="Chess.h" />
     <ClInclude Include="ChessRenderer.h" />
     <ClInclude Include="Networking\Client.h" />
