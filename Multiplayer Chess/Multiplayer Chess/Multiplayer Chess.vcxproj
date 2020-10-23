@@ -151,8 +151,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Chess.cpp" />
     <ClCompile Include="ChessRenderer.cpp" />
-    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="Networking\Client.cpp" />
     <ClCompile Include="Pieces\Bishop.cpp" />
     <ClCompile Include="Pieces\IPiece.cpp" />
     <ClCompile Include="Pieces\King.cpp" />
@@ -161,11 +162,12 @@
     <ClCompile Include="Pieces\Pawn.cpp" />
     <ClCompile Include="Pieces\Queen.cpp" />
     <ClCompile Include="Pieces\Rook.cpp" />
-    <ClCompile Include="Server.cpp" />
+    <ClCompile Include="Networking\Server.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Chess.h" />
     <ClInclude Include="ChessRenderer.h" />
-    <ClInclude Include="Client.h" />
+    <ClInclude Include="Networking\Client.h" />
     <ClInclude Include="Pieces\Bishop.h" />
     <ClInclude Include="Pieces\IPiece.h" />
     <ClInclude Include="Pieces\King.h" />
@@ -173,7 +175,7 @@
     <ClInclude Include="Pieces\Pawn.h" />
     <ClInclude Include="Pieces\Queen.h" />
     <ClInclude Include="Pieces\Rook.h" />
-    <ClInclude Include="Server.h" />
+    <ClInclude Include="Networking\Server.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -19,15 +19,16 @@ ChessRenderer::ChessRenderer() {
 	}
 }
 
-void ChessRenderer::draw(sf::RenderWindow& window, Piece piece, bool isWhite, sf::Vector2f position) {
+void ChessRenderer::draw(sf::RenderWindow& window, Piece piece, bool isBlack, sf::Vector2f position) {
 	int i;
 	switch (piece) {
-	case Piece::King  :	  i = 6 * isWhite ;		 break;
-	case Piece::Queen :	  i = 6 * isWhite + 1;	 break;
-	case Piece::Bishop:	  i = 6 * isWhite + 2;	 break;
-	case Piece::Knight:	  i = 6 * isWhite + 3;	 break;
-	case Piece::Rook  :	  i = 6 * isWhite + 4;	 break;
-	case Piece::Pawn  :	  i = 6 * isWhite + 5;	 break;
+	case Piece::King  :	  i = 6 * isBlack ;		 break;
+	case Piece::Queen :	  i = 6 * isBlack + 1;	 break;
+	case Piece::Bishop:	  i = 6 * isBlack + 2;	 break;
+	case Piece::Knight:	  i = 6 * isBlack + 3;	 break;
+	case Piece::Rook  :	  i = 6 * isBlack + 4;	 break;
+	case Piece::Pawn  :	  i = 6 * isBlack + 5;	 break;
+	default : return;
 	}
 	sprites[i].setPosition(position);
 	window.draw(sprites[i]);
