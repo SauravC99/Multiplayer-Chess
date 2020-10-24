@@ -18,6 +18,7 @@ public:
 
 	void move(std::pair<char, char> source, std::pair<char, char> destination);
 	IPiece* get(std::pair<char, char> position);
+	std::vector<std::vector<IPiece*>> getBoard();
 
 	static std::pair<int, int> convert(std::pair<char, char>);
 };

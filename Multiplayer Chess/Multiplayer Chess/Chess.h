@@ -10,13 +10,15 @@ class Chess
 {
 private:
 	Board board;
-	Color currentTurn;
+	Color currentTurn = Color::White;
 	ChessRenderer renderer;
 	sf::RenderWindow* window;
 	sf::Texture boardTexture;
 	sf::Sprite boardSprite;
 
 	void render();
+	void nextPlayer();
+	void makePrevMove(std::string);
 
 public:
 	Chess();

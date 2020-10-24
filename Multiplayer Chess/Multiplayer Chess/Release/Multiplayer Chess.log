@@ -1,12 +1,8 @@
-﻿  Bishop.cpp
-  IPiece.cpp
-  King.cpp
-  Knight.cpp
-  Pawn.cpp
-  Queen.cpp
-  Rook.cpp
-Knight.obj : error LNK2005: "class std::vector<struct std::pair<char,char>,class std::allocator<struct std::pair<char,char> > > __cdecl getMoves(struct std::pair<char,char>)" (?getMoves@@YA?AV?$vector@U?$pair@DD@std@@V?$allocator@U?$pair@DD@std@@@2@@std@@U?$pair@DD@2@@Z) already defined in King.obj
-Pawn.obj : error LNK2005: "class std::vector<struct std::pair<char,char>,class std::allocator<struct std::pair<char,char> > > __cdecl getMoves(struct std::pair<char,char>)" (?getMoves@@YA?AV?$vector@U?$pair@DD@std@@V?$allocator@U?$pair@DD@std@@@2@@std@@U?$pair@DD@2@@Z) already defined in King.obj
-Queen.obj : error LNK2005: "class std::vector<struct std::pair<char,char>,class std::allocator<struct std::pair<char,char> > > __cdecl getMoves(struct std::pair<char,char>)" (?getMoves@@YA?AV?$vector@U?$pair@DD@std@@V?$allocator@U?$pair@DD@std@@@2@@std@@U?$pair@DD@2@@Z) already defined in King.obj
-Rook.obj : error LNK2005: "class std::vector<struct std::pair<char,char>,class std::allocator<struct std::pair<char,char> > > __cdecl getMoves(struct std::pair<char,char>)" (?getMoves@@YA?AV?$vector@U?$pair@DD@std@@V?$allocator@U?$pair@DD@std@@@2@@std@@U?$pair@DD@2@@Z) already defined in King.obj
-C:\Users\Tanner\Documents\Github\Multiplayer-Chess\Multiplayer Chess\Release\Multiplayer Chess.exe : fatal error LNK1169: one or more multiply defined symbols found
+﻿  Client.cpp
+  Server.cpp
+  Generating code
+  2 of 376 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Multiplayer Chess.vcxproj -> C:\Users\Tanner\Documents\Github\Multiplayer-Chess\Multiplayer Chess\Release\Multiplayer Chess.exe

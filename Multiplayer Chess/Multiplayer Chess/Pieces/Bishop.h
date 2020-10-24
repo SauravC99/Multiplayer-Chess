@@ -13,6 +13,6 @@ public:
 
 	Piece getType();
 
-	vector<pair<char, char>> getMoves(pair<char, char>);
+	vector<pair<char, char>> getMoves(pair<char, char>, vector<vector<IPiece*>> board);
 };
 

@@ -164,6 +164,7 @@
     <ClCompile Include="Pieces\Queen.cpp" />
     <ClCompile Include="Pieces\Rook.cpp" />
     <ClCompile Include="Networking\Server.cpp" />
+    <ClCompile Include="Networking\Socket.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Board.h" />
@@ -178,6 +179,7 @@
     <ClInclude Include="Pieces\Queen.h" />
     <ClInclude Include="Pieces\Rook.h" />
     <ClInclude Include="Networking\Server.h" />
+    <ClInclude Include="Networking\Socket.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

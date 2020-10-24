@@ -11,7 +11,7 @@ Piece Knight::getType() {
 	return type;
 }
 
-vector<pair<char, char>> Knight::getMoves(pair<char, char> pos) {
+vector<pair<char, char>> Knight::getMoves(pair<char, char> pos, vector<vector<IPiece*>> board) {
 	vector<pair<char, char>> moves;
 	char rank = pos.first, file = pos.second;
 	//right

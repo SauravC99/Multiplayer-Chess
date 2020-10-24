@@ -1,12 +1,13 @@
 #pragma once
+#include "Socket.h"
 #include <SFML/Network.hpp>
 #include <string>
 
 #ifndef BUFFER_LENGTH
-#define BUFFER_LENGTH 127
+#define BUFFER_LENGTH 128
 #endif
 
-class Client
+class Client : public Socket
 {
 private:
 	sf::TcpSocket socket;
@@ -19,6 +20,6 @@ public:
 		   sf::Time             timeout   = sf::Time::Zero);
 
 	void send(const char* data, std::size_t bytes);
-	std::string receive();
+	bool receive(std::string&);
 };
 

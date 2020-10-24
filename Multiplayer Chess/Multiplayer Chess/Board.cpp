@@ -49,6 +49,10 @@ IPiece* Board::get(std::pair<char, char> pos) {
 	return board[coords.first][coords.second];
 }
 
+std::vector<std::vector<IPiece*>> Board::getBoard() {
+	return board;
+}
+
 std::pair<int, int> Board::convert(std::pair<char, char> pos) {
 	return std::make_pair(-1 * (pos.first - '8'), pos.second - 'A');
 }

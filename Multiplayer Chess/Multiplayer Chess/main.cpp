@@ -6,5 +6,6 @@ int main()
 {
     Chess c;
     c.play();
+    std::cin.get();
     return 0;
 }

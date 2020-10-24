@@ -1,2 +1,12 @@
-﻿  ChessRenderer.cpp
+﻿  Chess.cpp
+C:\Users\Tanner\Documents\Github\Multiplayer-Chess\Multiplayer Chess\Multiplayer Chess\Chess.cpp(38,80): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\Tanner\Documents\Github\Multiplayer-Chess\Multiplayer Chess\Multiplayer Chess\Chess.cpp(38,47): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
   Multiplayer Chess.vcxproj -> C:\Users\Tanner\Documents\Github\Multiplayer-Chess\Multiplayer Chess\Debug\Multiplayer Chess.exe
