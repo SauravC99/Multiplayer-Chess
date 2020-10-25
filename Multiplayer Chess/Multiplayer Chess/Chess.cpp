@@ -164,6 +164,8 @@ void Chess::play() {
                     else {
                         counter = 0;
                         src = clickToPos(event.mouseButton.x, event.mouseButton.y);
+                        if (board.get(src) == nullptr or board.get(src)->getColor() != currentTurn)
+                            counter--;
                     }
                     counter++;
                 }
