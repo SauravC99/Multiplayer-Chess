@@ -16,7 +16,7 @@ Chess::Chess() {
 	currentTurn = Color::White;
 
     //initialize window
-    window = new sf::RenderWindow(sf::VideoMode(800,800), "Multiplayer Chess");
+    //window = new sf::RenderWindow(sf::VideoMode(800,800), "Multiplayer Chess");
     
     //setup background image
     boardTexture.loadFromFile("board.png");
@@ -92,7 +92,7 @@ bool Chess::move(std::pair<char, char> src, std::pair<char, char> dest) {
 
 void Chess::play() {
     //draw initial board state
-    render();
+    //render();
     
     //Networking
     Socket* socket = nullptr;
@@ -115,6 +115,7 @@ void Chess::play() {
             return;
         }
     }
+    window = new sf::RenderWindow(sf::VideoMode(800, 800), "Multiplayer Chess");
 
     std::string previousMove;
 
